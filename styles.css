@@ -1,0 +1,26 @@
+div.topOfMyPage {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Zorzal_litsitsirupa_%28Turdus_litsitsirupa%29%2C_Santuario_de_Rinocerontes_Khama%2C_Botsuana%2C_2018-08-02%2C_DD_13.jpg/800px-Zorzal_litsitsirupa_%28Turdus_litsitsirupa%29%2C_Santuario_de_Rinocerontes_Khama%2C_Botsuana%2C_2018-08-02%2C_DD_13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:aqua;
+    font-weight: 900;
+}
+.display-4 {
+    display: inline-block;
+    background-color: rgba(100,100,100,0.5);
+}
+.row div {
+    color: red;
+}
+.row div:nth-child(3n+1) {
+    color: green;
+    padding: 20px;
+}
+#thisone {
+    border: 5px solid var(--teal);
+}
+.row div:nth-child(3n+2) {
+    color: blue;
+    padding 20px;
+}
